@@ -18,13 +18,17 @@ img{
 }
 
 nav{
-    text-align: center;
+    text-align: center;  
+    list-style: none;
+
 }
 
 
 
+
 nav li{
-    margin: 10px;
+    margin: 10px;  
+    list-style: none;
 }
 
 nav a{
@@ -37,3 +41,25 @@ main h2 {
     color: white;
 }
 
+p{
+    text-align: center;
+    color: white;  
+}
+
+section ul {
+    color: white;
+} 
+
+h3{
+    color: white;
+}
+
+section h3 ul{
+text-align: center;
+color:white;
+list-style: none;
+}
+
+section h3 ul :hover{
+    color: #FFD700;
+}
