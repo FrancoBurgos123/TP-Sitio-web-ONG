@@ -1,11 +1,39 @@
+body{
+    background-color: #2C5F8A;
+}
 h1{
+    background-color: #2C5F8A;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+img{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+
+    display: block;
+    margin: auto;
+}
+
+nav{
     text-align: center;
 }
 
 
 
-h2{
-    text-align: center;
+nav li{
+    margin: 10px;
 }
 
+nav a{
+    color: white;
+    font-size: 22px;
+}
+
+main h2 {
+    text-align: center;
+    color: white;
+}
 
