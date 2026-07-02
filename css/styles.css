@@ -65,3 +65,7 @@ list-style: none;
 section h3 ul :hover{
     color: #FFD700;
 }
+
+form{
+    text-align: center;
+}
