@@ -69,3 +69,9 @@ section h3 ul :hover{
 form{
     text-align: center;
 }
+
+main a{
+    text-align: center;
+    color: white;  
+}
+
