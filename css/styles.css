@@ -70,8 +70,13 @@ form{
     text-align: center;
 }
 
-main a{
-    text-align: center;
+a{
+    
     color: white;  
+}
+
+main {
+    text-align: center;
+    
 }
 
