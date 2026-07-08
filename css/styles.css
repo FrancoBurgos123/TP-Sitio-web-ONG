@@ -1,96 +1,98 @@
 body{
-    background-color: #2C5F8A;
-    font-family: montserrat;
-    padding: 15px;
+background-color: #2C5F8A;
+font-family: montserrat;
 }
+
 h1{
-    background-color: #2C5F8A;
-    color: white;
-    text-align: center;
-    padding: 15px;
+color: white ;
+text-align: center;
 }
 
-img{
-    width: 80%;
-    height: 300px;
-    object-fit: cover;
-
-    display: block;
-    margin: auto;
-    padding: 15px;
+.imagen1{
+width: 100%;
+height: 400px;
+object-fit: cover;
 }
 
-nav{
-    text-align: center;  
-    list-style: none;
-    padding: 15px;
-
-}
-nav  :hover{
-    color: #FFD700;
-    
-}
-
-
-nav li{
-    margin: 10px;  
-    list-style: none;
-    
+nav ul{ 
+color:white;
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 30px;
 }
 
 nav a{
-    color: white;
-    font-size: 22px;
-    
-}
-
-main h2 {
-    text-align: center;
-    color: white;
-    padding: 15px;
+color: white;
 }
 
 p{
-    text-align: center;
-    color: white;  
-    padding: 15px;
+color: white;
+text-align: center;
 }
 
-section ul {
-    color: white;
-} 
+#Nuestros\ Valores ul{
+color: white;
+}
+
+h2{
+text-align: center;
+color: white;
+}
 
 h3{
-    color: white;
-    padding: 15px;
-}
-
-section h3 ul{
+color: white;
 text-align: center;
-color:white;
-list-style: none;
-padding: 15px;
 }
 
-section h3 ul :hover{
-    color: #FFD700;
-    padding: 15px;
+.Bloque-valores{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
 }
 
-form{
-    text-align: center;
-    padding: 15px;
+.imagen2{
+width: 550px;
+}
+
+.comedor-movil{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+
+.imagen3{
+width: 550px; 
+}
+
+.donaciones{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+gap: 30px;
+}
+
+.imagen4{
+width: 550px;   
+}
+
+.acompañamiento-social{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+
+.imagen5{
+width: 550px;
+}
+
+.info-programas{
+display: block;
+width: fit-content;
+margin: 30px auto;
 }
 
 a{
-    color: white;
-     padding: 15px;
-    
+color: white;  
 }
-
-main {
-    text-align: center;
-    padding: 15px;
-    
-}
-
