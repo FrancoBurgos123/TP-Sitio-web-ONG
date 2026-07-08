@@ -5,7 +5,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Registrate</title>
     <link rel="stylesheet" href="/css/styles.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
@@ -18,32 +18,26 @@
 <main>
     <form>
         <h2>Nombre/s y Apellido/s:</h2>
+        <div class="nombre-apellido">
             <input type="text" placeholder="ej: Lionel Andres" required>
             <input type="text" placeholder="ej: Messi" required>
-            
+        </div>    
+        
         <h2>Correo Electronico:</h2>
             <input type="email" placeholder="Sevienela4@hotmail.com" required>
+        
         <h2>Celular Movil:</h2>
             <input type="text" placeholder="ej: 011 3859-7499" required>
+        
         <h2>Selecciona Genero:</h2>
-            <label>
-                <input type="radio" name="genero">
-                Masculino
-            </label>
+        <div class="genero">
+            <label><input type="radio" name="genero">Masculino</label>
+            <label><input type="radio" name="genero">Femenino</label>
+            <label><input type="radio" name="genero">Therian</label>
+        </div>
 
-            <label>
-                <input type="radio" name="genero">
-                Femenino
-            </label>
-
-            <label>
-                <input type="radio" name="genero">
-                Therian
-            </label>
-
-            <ul>
-                <li> <input type="submit" value="Enviar formulario"></li> 
-            </ul>
+        <input class="boton-enviar" type="submit" value="Enviar formulario">
+            
     </form>
 </main>
 
