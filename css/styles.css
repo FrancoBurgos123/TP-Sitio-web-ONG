@@ -96,3 +96,49 @@ margin: 30px auto;
 a{
 color: white;  
 }
+
+.imagen6{
+width: 100%;
+height: 350px;
+object-fit: cover;   
+}
+
+.bloque-historia{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+
+.imagen7{
+width: 550px; 
+}
+
+.formulario{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+gap: 30px;
+}
+
+.imagen8{
+width: 550px;   
+}
+
+.centros-asistencia{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+
+.imagen9{
+width: 550px;      
+}
+
+.imagen10{
+width: 550px; 
+display: block;
+margin: auto;
+}
+
+
