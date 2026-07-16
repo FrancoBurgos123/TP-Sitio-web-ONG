@@ -99,8 +99,19 @@ align-items: center;
 gap: 30px;
 }
 
+@media (max-width: 768px)  {
+
+.donaciones{
+flex-direction: column;
+text-align: center;
+gap: 20px;
+}
+}
+
 .imagen4{
-width: 550px;   
+width: 100%;
+max-width: 400px;
+height: auto;
 }
 
 .acompañamiento-social{
@@ -109,8 +120,19 @@ align-items: center;
 gap: 30px;
 }
 
+@media (max-width: 768px)  {
+
+.acompañamiento-social{
+flex-direction: column;
+text-align: center;
+gap: 20px;
+}
+}
+
 .imagen5{
-width: 550px;
+width: 100%;
+max-width: 400px;
+height: auto;
 }
 
 .info-programas{
