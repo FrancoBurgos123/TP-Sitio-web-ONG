@@ -58,12 +58,12 @@ gap: 50px;
 
 @media (max-width: 768px) {
 
-    .Bloque-valores {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-    }
+.Bloque-valores {
+flex-direction: column;
+text-align: center;
+gap: 20px;
+}
+}
 
 .imagen2{
 width: 100%;
@@ -77,8 +77,19 @@ align-items: center;
 gap: 30px;
 }
 
+@media (max-width: 768px)  {
+
+.comedor-movil {
+flex-direction: column;
+text-align: center;
+gap: 20px;
+}
+}
+
 .imagen3{
-width: 550px; 
+width: 100%;
+max-width: 400px;
+height: auto;
 }
 
 .donaciones{
