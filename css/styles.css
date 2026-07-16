@@ -27,7 +27,7 @@ color: white;
 }
 
 nav a:hover{
-    color:#FFD54F;
+color:#FFD54F;
 }
 
 p{
@@ -56,12 +56,20 @@ align-items: center;
 gap: 50px;
 }
 
+@media (max-width: 768px) {
+
+    .Bloque-valores {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    }
+
 .imagen2{
 width: 100%;
-max-width: 550px;
+max-width: 400px;
 height: auto;
 }
-
 
 .comedor-movil{
 display: flex;
