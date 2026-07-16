@@ -220,12 +220,15 @@ height: auto;
 }
 /*nosotros.html*/
 
+/*programas.html*/
 .imagen10{
 width: 550px; 
 display: block;
 margin: auto;
 }
+/*programas.html*/
 
+/*contacto.html*/
 form{
 display: flex;
 flex-direction: column;
@@ -251,6 +254,7 @@ color:white;
 padding:12px 25px;
 border-radius:8px;
 }
+/*contacto.html*/
 
 /*modo oscuro*/
 
