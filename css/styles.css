@@ -3,6 +3,13 @@ background-color: #2C5F8A;
 font-family: montserrat;
 }
 
+@media (max-width: 768px) {
+body{
+padding: 10px;
+}
+}
+
+
 /*index*/
 h1{
 color: white ;
@@ -21,6 +28,13 @@ list-style: none;
 display: flex;
 justify-content: center;
 gap: 30px;
+}
+
+@media (max-width: 768px) {
+nav ul {
+flex-direction: column;
+text-align: center;
+}
 }
 
 nav a{
@@ -277,29 +291,6 @@ border-radius:8px;
 
 .dark section {
     background-color: #2b2b2b;
-}
-
-/*adaptacion de celulares - Responsive*/
-
-@media (max-width: 768px) {
-
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .formulario {
-        flex-direction: column;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    body {
-        padding: 10px;
-    }
 }
 
 
